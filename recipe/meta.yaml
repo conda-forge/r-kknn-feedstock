@@ -1,4 +1,4 @@
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/kknn_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/kknn/kknn_{{ version }}.tar.gz
-  sha256: 953da321a81faf34a38526a4bd8f468dc3e1856b2f2a20306c560cdb3f58ad79
+  sha256: 5232ddc268c0f9d691b613c8767a9ce079dade75ee22051a3b928024ada46f34
 
 build:
   number: 0
